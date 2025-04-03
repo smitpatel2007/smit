@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cillo - Spring Collection 2025</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">Cillo</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Sale</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Showcase</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <a href="#" class="login">Login</a>
+            <a href="#" class="signup">Sign Up</a>
+        </div>
+    </header>
 
+    <main>
+        <section class="hero">
+            <h1>New spring collection 2025</h1>
+            <h2>Where style meets innovative ways of meeting new fashion</h2>
+            <p>Unveiling a fashion destination where trends blend seamlessly with your individual style aspirations. Discover today!</p>
+            <button class="cta-button">New Collection</button>
+        </section>
+
+        <div class="model-selector">
+            <div class="circle active" data-id="1"></div>
+            <div class="circle" data-id="2"></div>
+            <div class="circle" data-id="3"></div>
+        </div>
+
+        <section class="models-grid">
+            <div class="model" data-id="1">
+                <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Fashion Model 1">
+            </div>
+            <div class="model" data-id="2">
+                <img src="https://images.unsplash.com/photo-1520367445093-50dc08a59d9d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Fashion Model 2">
+            </div>
+            <div class="model" data-id="3">
+                <img src="https://images.unsplash.com/photo-1543076447-215ad9ba6923?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Fashion Model 3">
+            </div>
+        </section>
+
+        <div class="model-modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <img src="" alt="Selected Model" class="modal-model-img">
+                <div class="model-details">
+                    <h3 class="model-title">Spring Collection 2025</h3>
+                    <p class="model-description">Premium fashion for your unique style</p>
+                    <button class="shop-now">Shop This Look</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
